@@ -2,3 +2,7 @@ obj
 bin
 appsettings.json
 *.db
+skinetcertificate.pfx
+skinet.db-shm
+skinet.db-wal
+-h
