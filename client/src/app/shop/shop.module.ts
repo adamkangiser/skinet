@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { ShopComponent } from './shop.component';
 import { ProductItemComponent } from './product-item/product-item.component';
 import { SharedModule } from '../shared/shared.module';
-import { NgxPaginationModule } from 'ngx-pagination/public-api';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { ShopRoutingModule } from './shop-routing.module';
 
@@ -18,7 +17,6 @@ import { ShopRoutingModule } from './shop-routing.module';
   imports: [
     CommonModule,
     SharedModule,
-    NgxPaginationModule,
     ShopRoutingModule
   ]
 })
